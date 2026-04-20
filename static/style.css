@@ -1,8 +1,20 @@
-﻿body {
-    background-color: #f0f8ff; /* 薄い青色 */
-    font-family: sans-serif;
-    text-align: center;
+﻿/* 記事を囲むカードのようなデザイン */
+.post-card {
+    background: white;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: left;
 }
-h1 {
-    color: #2e8b57; /* 緑色 */
+
+.post-title {
+    color: #2e8b57;
+    margin-top: 0;
+}
+
+.post-date {
+    color: #888;
+    font-size: 0.9em;
 }
